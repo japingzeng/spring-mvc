@@ -194,6 +194,16 @@
                     </configuration>
                 </plugin>
 
+                <!-- war打包插件, 设定war包名称不带版本号 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>2.4</version>
+                    <configuration>
+                        <warName>spring-mvc-web</warName>
+                    </configuration>
+                </plugin>
+
                 <!-- resources插件 -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

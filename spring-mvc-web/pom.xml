@@ -142,6 +142,15 @@
                     </configuration>
                 </plugin>
 
+                <!-- war打包插件, 设定war包名称不带版本号 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <configuration>
+                        <warName>spring-mvc-web</warName>
+                    </configuration>
+                </plugin>
+
                 <!--skip test -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
